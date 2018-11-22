@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinBMI"
+             x:Class="XamarinBMI.MainPage">
+
+    <StackLayout HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand">
+        
+        <Entry Placeholder="身長を入力(cm または m)"
+               x:Name="EntryHeight"/>
+        
+        <Entry Placeholder="体重を入力(kg)" 
+               x:Name="EntryWeight"/>
+
+        <Button Text="BMI計算" 
+                x:Name="ButtonBMI"/>
+
+        <Label Text="計算結果" 
+               x:Name="LabelResult"/>
+
+        <Button Text="別のページでBMIを計算する"
+                HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+                x:Name="ButtonBMI2"/>
+        
+    </StackLayout>
+
+</ContentPage>
